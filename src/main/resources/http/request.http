@@ -1,0 +1,34 @@
+POST http://localhost/task
+content-type: application/json
+
+{
+  "name": "FirstTask"
+}
+
+
+###
+
+GET http://localhost/task
+
+###
+
+GET http://localhost/task/1
+
+###
+
+PATCH http://localhost/task/1
+content-type: application/json
+
+{
+  "name": "firstTaskNewNameWithoutUpdateHours"
+}
+
+###
+
+PATCH http://localhost/task/1
+content-type: application/json
+
+{
+  "name": "firstTaskNewNameWithUpdateHours",
+  "hours": "100"
+}

@@ -1,0 +1,14 @@
+spring.datasource.username=
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.password=
+spring.datasource.url=jdbc:postgresql://localhost:5432/cw
+spring.datasource.hikari.maximum-pool-size=10
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format-sql=true
+
+spring.mvc.throw-exception-if-no-handler-found=true
+logging.file.path=@project.basedir@/src/main/resources/logs
+
+server.port=80
